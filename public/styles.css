@@ -1,0 +1,45 @@
+.helloInput {
+  width: 200px;
+}
+
+.title {
+  color: white;
+}
+
+.mainText {
+  color: white;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: #85c383;
+}
+
+.sidebar-menu {
+  width: 250px;
+  height: 500px;
+  position: fixed;
+}
+
+.sidebar-menu nav .nav-wrapper ul li {
+  width: 100%;
+}
+
+.mr-100 {
+  margin-right: 100px;
+}
+
+.page-footer {
+  background-color: #65a989;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.parent-div div {
+  background-color: rgb(210, 30, 135);
+  border: darkcyan;
+}
